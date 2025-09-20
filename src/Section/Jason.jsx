@@ -17,7 +17,7 @@ const Jason = () => {
       .to(".first-vd", { opacity: 0, duration: 1, ease: "power1.inOut" });
 
     gsap.to(
-      ".json .img-box",
+      ".jason .img-box",
       {
         scrollTrigger: {
           trigger: ".jason",
