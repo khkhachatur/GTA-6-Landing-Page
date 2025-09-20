@@ -5,6 +5,7 @@ import Hero from "./Section/Hero";
 import Lucia from "./Section/Lucia";
 import Jason from "./Section/Jason";
 import Navbar from "./Section/Navbar";
+import PostCard from "./Section/PostCard";
 import FirstVideo from "./Section/FirstVideo";
 import SecondVideo from "./Section/SecondVideo";
 
@@ -22,6 +23,8 @@ const App = () => {
 
       <SecondVideo />
       <Lucia />
+
+      <PostCard />
     </main>
   );
 };
