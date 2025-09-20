@@ -1,15 +1,20 @@
-import { useState } from "react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/all";
 
-import "./App.css";
+import Hero from "./Section/Hero";
+import Navbar from "./Section/Navbar";
+import FirstVideo from "./Section/FirstVideo";
 
-function App() {
-  const [count, setCount] = useState(0);
+gsap.registerPlugin(ScrollTrigger);
 
+const App = () => {
   return (
-    <>
-      <h1>GTA6</h1>
-    </>
+    <main>
+      <Navbar />
+      <Hero />
+      <FirstVideo />
+    </main>
   );
-}
+};
 
 export default App;
