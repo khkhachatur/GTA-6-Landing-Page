@@ -2,6 +2,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 
 import Hero from "./Section/Hero";
+import Final from "./Section/Final";
 import Lucia from "./Section/Lucia";
 import Jason from "./Section/Jason";
 import Navbar from "./Section/Navbar";
@@ -25,6 +26,8 @@ const App = () => {
       <Lucia />
 
       <PostCard />
+
+      <Final />
     </main>
   );
 };

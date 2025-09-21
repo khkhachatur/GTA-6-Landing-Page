@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 
 const SecondVideo = () => {
-  const videoRef = useRef();
+  const videoRef = useRef(null);
 
   useGSAP(() => {
     gsap.set(".lucia", { marginTop: "-60vh", opacity: 0 });
