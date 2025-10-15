@@ -6,7 +6,7 @@ const Final = () => {
   const videoRef = useRef(null);
 
   useGSAP(() => {
-    gsap.set(".final-content ", { opacity: 0 });
+    gsap.set(".final-content", { opacity: 0 });
 
     gsap.timeline({
       scrollTrigger: {
@@ -17,6 +17,7 @@ const Final = () => {
         pin: true,
       },
     });
+
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: ".final",
@@ -28,7 +29,7 @@ const Final = () => {
 
     tl.to(".final-content", {
       opacity: 1,
-      duration: 2,
+      duration: 1,
       scale: 1,
       ease: "power1.inOut",
     });
